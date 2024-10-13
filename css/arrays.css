@@ -1,0 +1,59 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5f5; /* Fondo claro con un toque de rojo */
+    color: #990000; /* Color de texto rojo oscuro */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #cc0000; /* Color rojo para el título */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #b30000; /* Color rojo más oscuro para los subtítulos */
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #e60000; /* Fondo rojo intenso */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000; /* Cambia a rojo oscuro al pasar el mouse */
+}
+
+button:active {
+    background-color: #990000; /* Rojo aún más oscuro al hacer clic */
+}
+
+p {
+    font-size: 1.2em;
+    color: #b30000;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #ffe6e6; /* Fondo suave para los resultados */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    width: auto;
+}
+
+/* Espaciado entre las secciones */
+h3 + button {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,46 @@
+/* Estilos para el índice */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #006064;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #004d40;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+@media (max-width: 600px) {
+    .button-container {
+        grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+    }
+}

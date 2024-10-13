@@ -1,0 +1,75 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fff9c4; /* Fondo amarillo claro */
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #fdd835; /* Amarillo vibrante */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+/* Estilo inicial para el efecto hover */
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 235, 59, 0.6); /* Amarillo más claro */
+    transition: left 0.3s ease;
+}
+
+/* Efecto hover avanzado con brillo y movimiento */
+button:hover::before {
+    left: 100%;
+}
+
+button:hover {
+    transform: translateY(-3px); /* Efecto de levantar el botón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: #fbc02d; /* Cambio a un amarillo más oscuro */
+}
+
+button:active {
+    transform: translateY(1px); /* Efecto de presionar el botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto visual de las estrellas detrás de los botones */
+.ejemplo {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -5px;
+    left: 0;
+}
+
+/* Estilo para el contenedor donde se muestra el resultado de la suma */
+#resultadoSuma {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo para el mensaje de revisión de consola */
+p {
+    color: #444;
+    font-size: 20px;
+    margin-top: 30px;
+}

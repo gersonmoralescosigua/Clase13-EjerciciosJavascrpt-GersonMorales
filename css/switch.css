@@ -1,0 +1,64 @@
+/* Estilos generales para switch.html */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #0288d1;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #01579b;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #0288d1;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #01579b;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+input, button {
+    margin-bottom: 10px;
+}

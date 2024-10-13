@@ -1,0 +1,65 @@
+/* Estilos generales para ifelse.html */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f3e5f5; /* Fondo color lila claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #6a1b9a; /* Color morado oscuro */
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #8e24aa; /* Color morado intermedio */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #4a148c; /* Color morado fuerte */
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 2px solid #ce93d8;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6a1b9a; /* Color morado oscuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a148c; /* Color morado más oscuro */
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin-bottom: 10px;
+}

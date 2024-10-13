@@ -1,0 +1,47 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto en blanco para contraste */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #e6e6e6; /* Título en un tono gris claro */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #cccccc; /* Subtítulos en un gris más oscuro */
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333333; /* Botones con un fondo gris oscuro */
+    color: #ffffff; /* Texto blanco en los botones */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666666; /* Cambia a gris claro al pasar el mouse */
+}
+
+button:active {
+    background-color: #999999; /* Cambia a gris más claro al hacer clic */
+}
+
+/* Espaciado entre las secciones */
+h3 + button {
+    margin-bottom: 20px;
+}

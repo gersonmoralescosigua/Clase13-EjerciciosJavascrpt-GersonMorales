@@ -1,0 +1,40 @@
+/* Estilos para el ejercicio de variables */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #388E3C;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
